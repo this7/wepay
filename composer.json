@@ -1,0 +1,29 @@
+{
+    "name": "this7/wepay",
+    "description": "this7 PHP wepay class.",
+    "license": "MIT",
+    "homepage": "https://github.com/this7/wepay",
+    "keywords": [
+        "this7",
+        "php-wepay"
+    ],
+    "authors": [
+    {
+        "name": "Yan Tianzeng",
+        "email": "qinuoyun@qq.com",
+        "homepage": "http://www.ub-u7.com/"
+    }],
+    "require":
+    {
+        "php": ">=5.6.6",
+        "this7/config": "dev-master",
+        "this7/logger": "dev-master"
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "this7\\wepay\\": "src"
+        }
+    }
+}

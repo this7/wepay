@@ -1,0 +1,22 @@
+{
+    "MCHID":
+    {
+        "name": "商户号",
+        "value": "1372723302"
+    },
+    "KEY":
+    {
+        "name": "支付密钥",
+        "value": "boLFgc4DTIFq8HRCV2H4XEDFUgjWV6J5"
+    },
+    "SSLCERT_PATH":
+    {
+        "name": "证书公钥",
+        "value": "apiclient_cert.pem"
+    },
+    "SSLKEY_PATH":
+    {
+        "name": "证书秘钥",
+        "value": "apiclient_key.pem"
+    }
+}

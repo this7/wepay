@@ -21,6 +21,14 @@
     },
     "autoload":
     {
+        "files": [
+            "src/WxPay.Api.php",
+            "src/WxPay.Config.php",
+            "src/WxPay.Data.php",
+            "src/WxPay.Exception.php",
+            "src/WxPay.JsApiPay.php",
+            "src/WxPay.Notify.php"
+        ],
         "psr-4":
         {
             "this7\\wepay\\": "src"

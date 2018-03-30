@@ -4,13 +4,20 @@
  * @E-mail: admin@ubphp.com
  * @Date:   2016-08-26 15:05:16
  * @Last Modified by:   qinuoyun
- * @Last Modified time: 2018-03-29 19:01:02
+ * @Last Modified time: 2018-03-30 15:10:52
  * Copyright (c) 2014-2016, UBPHP All Rights Reserved.
  */
 namespace this7\wepay;
 
 class wepay {
+    public function __construct() {
+        defined('_this7_wepay_MCHID') or define('_this7_wepay_MCHID', C("wepay", "MCHID"));
+        defined('_this7_wepay_KEY') or define('_this7_wepay_KEY', C("wepay", "KEY"));
 
+        defined('_this7_wepay_APPID') or define('_this7_wepay_APPID', C("weapp", "appId"));
+        defined('_this7_wepay_APPSECRET') or define('_this7_wepay_APPSECRET', C("wepay", "appSecret"));
+
+    }
     /**
      * 小程序支付
      * @param  string  $openId 用户ID

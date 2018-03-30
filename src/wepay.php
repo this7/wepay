@@ -4,16 +4,13 @@
  * @E-mail: admin@ubphp.com
  * @Date:   2016-08-26 15:05:16
  * @Last Modified by:   qinuoyun
- * @Last Modified time: 2018-03-29 17:21:34
+ * @Last Modified time: 2018-03-29 19:01:02
  * Copyright (c) 2014-2016, UBPHP All Rights Reserved.
  */
 namespace this7\wepay;
 
 class wepay {
 
-    public function demo() {
-        echo 1111;
-    }
     /**
      * 小程序支付
      * @param  string  $openId 用户ID

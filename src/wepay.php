@@ -4,7 +4,7 @@
  * @E-mail: admin@ubphp.com
  * @Date:   2016-08-26 15:05:16
  * @Last Modified by:   qinuoyun
- * @Last Modified time: 2018-07-24 10:20:16
+ * @Last Modified time: 2018-03-30 15:10:52
  * Copyright (c) 2014-2016, UBPHP All Rights Reserved.
  */
 namespace this7\wepay;
@@ -13,10 +13,11 @@ class wepay {
     public function __construct() {
         defined('_this7_wepay_MCHID') or define('_this7_wepay_MCHID', C("wepay", "MCHID"));
         defined('_this7_wepay_KEY') or define('_this7_wepay_KEY', C("wepay", "KEY"));
+
         defined('_this7_wepay_APPID') or define('_this7_wepay_APPID', C("weapp", "appId"));
         defined('_this7_wepay_APPSECRET') or define('_this7_wepay_APPSECRET', C("wepay", "appSecret"));
-    }
 
+    }
     /**
      * 小程序支付
      * @param  string  $openId 用户ID
@@ -49,10 +50,6 @@ class wepay {
 
     /**
      * 格式化参数格式化成url参数
-     * @Author   Sean       Yan
-     * @DateTime 2018-07-24
-     * @param    [type]     $values [description]
-     * @return   [type]             [description]
      */
     public function toUrlParams($values) {
         $buff = "";
